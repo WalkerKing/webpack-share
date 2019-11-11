@@ -1,0 +1,24 @@
+{
+  "name": "pack-m",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pack-m": "./bin/pack-m.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tapable": "^2.0.0-beta.3"
+  },
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "escodegen": "^1.12.0",
+    "esprima": "^4.0.1",
+    "estraverse": "^4.3.0"
+  }
+}
